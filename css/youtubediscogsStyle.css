@@ -1,0 +1,165 @@
+ html, body {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     font-family: Courier;
+     font-size: small;
+     color: #64db15;
+     background: #000000;
+     border: 1px solid #64db15;
+     padding: 10px;
+ }
+ 
+ body.main {
+     margin: 0px;
+     padding: 0px;
+     overflow: hidden;
+ }
+#mainpageContainer{
+    margin: 0 auto;
+    max-width:960px;
+    width:80%;
+    
+}
+ 
+
+ table {
+     border-width: 1px;
+     border-style: dotted;
+     border-color: black;
+     width: 100%;
+ }
+ 
+ td {
+     vertical-align: top;
+     border-width: 0px;
+     border-style: solid;
+     border-color: red;
+     width: 100%;
+ }
+ 
+ .console {
+     font-family: Courier;
+     color: #CCCCCC;
+     background: #000000;
+     border: 3px double #CCCCCC;
+     padding: 10px;
+ }
+ 
+ .blink_me {
+     animation: blinker 2s linear infinite;
+ }
+ 
+ @keyframes blinker {
+     50% {
+         opacity: 0;
+     }
+ }
+ 
+ .discogs-link {
+     /*display:none;*/
+     border-radius: 50%;
+     position: relative;
+     -webkit-animation: spin 4s linear infinite;
+     -moz-animation: spin 4s linear infinite;
+     animation: spin 4s linear infinite;
+ }
+ 
+ .track-collection {
+     font-size: smaller;
+ }
+ 
+ @-moz-keyframes spin {
+     100% {
+         -moz-transform: rotate(360deg);
+     }
+ }
+ 
+ @-webkit-keyframes spin {
+     100% {
+         -webkit-transform: rotate(360deg);
+     }
+ }
+ 
+ @keyframes spin {
+     100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+     }
+ }
+ 
+ .username_input {
+     background-color: #64db15;
+     background: #000000;
+     border: 0px;
+     color: #64db15;
+     font-family: Courier;
+     font-size: small;
+     width: 100px;
+     /*animation: blinker 10s linear infinite;*/
+ }
+ 
+ .player_iframe {
+     border: 0;
+     overflow: hidden;
+     overflow-x: hidden;
+     overflow-y: hidden;
+     height: 150%;
+     width: 150%;
+     position: absolute;
+     top: 20px;
+     left: 0px;
+     right: 0px;
+     bottom: 0px;
+ }
+ 
+ input[type='checkbox'] {
+    margin-top: -30px;
+}
+
+input[type='checkbox'] {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeSpeed;
+    width: 13px;
+    height: 13px;
+    margin: 0;
+    margin-right: 1px;
+    display: block;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+input[type='checkbox']:after {
+    content: "";
+    vertical-align: middle;
+    text-align: center;
+    line-height: 13px;
+    position: absolute;
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    left: 0;
+    top: 0;
+    font-size: 10px;
+    -webkit-box-shadow: inset 0 1px 1px #64db15, 0 1px 0 #64db15;
+    -moz-box-shadow: inset 0 1px 1px #64db15, 0 1px 0 #64db15;
+    box-shadow: inset 0 1px 1px #64db15, 0 1px 0 #64db15;
+    background: #000000;
+}
+
+input[type='checkbox']:hover:after, input[type='checkbox']:checked:hover:after {
+    background: #64db15;
+    content: '\2714';
+    color: #64db15;
+}
+
+input[type='checkbox']:checked:after {
+    background: #64db15;
+    content: '\2714';
+    color: #0000;
+}
+
+

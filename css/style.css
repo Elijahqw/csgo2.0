@@ -1,0 +1,134 @@
+body { background-image: url("../images/redespa_tierra_spain.jpg");
+    position:inherit;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-color: black;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #040813;
+}
+
+.topnav a {
+  float: left;
+  color: #4286f4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #adef13;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #adef13;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+        .text{ position: relative;
+            bottom: 44px;
+            width: 41%;
+        }  
+        
+
+       
+h1 {text-decoration: underline;
+    text-shadow: 2px 3px #0d154f;
+    font-size: 80px;
+    text-align: left;
+    color:#f7f8fc ;
+    position: relative;
+    bottom: 50px;
+} 
+ .about_header{position: relative;
+   
+    top: 0px;
+    left: 41.2%;
+
+    
+}
+
+p { color: white;
+    position: relative;
+    font-family: verdana;
+    font-size: 20px;    
+}
+h2{color:blue;}
+
+html{ height: 100%;
+     width:auto;    
+   
+}
+    .video{
+        
+        margin:0 auto;
+        width: 50%;
+        
+    }
+    
+    
+    .video_youtube{ border-image-source: url(https://img.purch.com/w/660/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA3NC8wNjEvb3JpZ2luYWwvcm9zZXR0ZS1uZWJ1bGEuanBn);
+    
+
+        
+        background: url("https://media.steelseriescdn.com/thumbs/filer_public/54/f7/54f70e35-5884-46cb-aa40-b1f1b90cd3f8/csgo_hero_plus-howl.jpg__1920x700_q100_crop-scale_optimize_subsampling-2.jpg");
+    background-size: auto;
+        height: 800px
+    
+    }
+    
+
+    .video_wright_up{background-color:#3540b7;opacity: 0.5;}
+    
+    
+.text_color
+{ background-color: #030c1b;
+    border-style: solid;
+    border-color: #FF1919;
+    color: #4000ff;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+     top: 36px;
+}
+
+#steam_logo{
+    max-width: 100px;
+    
+}
+#youtube_logo{
+    max-width: 100px;
+}
