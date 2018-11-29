@@ -57,6 +57,7 @@ body { background-image: url("../images/redespa_tierra_spain.jpg");
     left: 0;
     transform: none;
   }
+    body{width:100%;}
 }
         .text{ position: relative;
             bottom: 44px;
