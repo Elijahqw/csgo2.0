@@ -2,12 +2,14 @@
 <html>
 <head>
     <link rel= stylesheet href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, intial-scale=1">
 
-</head>
+    </head>
 <body>
 <div>
 <!-- Top navigation -->
-<div class="topnav">
+<div id="myTopnav" class="topnav">
 
   <!-- Centered link -->
   <div class="topnav-centered">
@@ -22,12 +24,16 @@
   <div class="topnav-right">
     <a href="#search">Search</a>
     <a href="about.html">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
   </div>
-  
-</div>
-<div class="content_container">
+    </div>
+    <div class="content_container">
+
+
 <h1>CSGO Videos...</h1>
-<h2>Hey there</h2>
+
 
 <div class="text"> 
 <p target ="blank">Welcome to this page</p>
@@ -49,5 +55,18 @@
     </div>
      <div class= "video_wright_up"><p> what do you think about this video?</p></div>
     </div>
-    </div></body>
+    </div>
+    <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+    
+    </script>
+    </body>
 </html>

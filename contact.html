@@ -1,10 +1,15 @@
-<head><link rel= stylesheet href="css/style.css"></head>
+<head><link rel= stylesheet href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, intial-scale=1">
+
+
+</head>
 <body>
     
     
     <div>
 <!-- Top navigation -->
-<div class="topnav">
+<div id="myTopnav" class="topnav">
 
   <!-- Centered link -->
   <div class="topnav-centered">
@@ -19,9 +24,12 @@
   <div class="topnav-right">
     <a href="#search">Search</a>
     <a href="about.html">About</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
   </div>
   
-</div>
+</div><div class="content_container">
         <h1> Contact</h1> 
         <p> My Steam account.</p>
         <p> <a href="https://steamcommunity.com/profiles/76561198277849909" target="_blank"> 
@@ -29,4 +37,20 @@
         <p> My Youtube.</p>
         <p> <a href="https://www.youtube.com/channel/UCUetZfY2Gqr5ydbayXHVcYQ" target="_blank">
             <img src="images/youtube-logo-circle-png-7.png" alt="youtube_logo" id="youtube_logo"></a></p>
-          
+        </div>
+        
+            </div>
+
+            <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+    
+    </script>
+        </body>
