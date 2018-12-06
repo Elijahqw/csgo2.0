@@ -50,7 +50,7 @@ body { background-image: url("../images/redespa_tierra_spain.jpg");
 
         .text{ position: relative;
             bottom: 44px;
-            width: 150%;
+            width: 100%;
         }  
         
 
@@ -128,33 +128,10 @@ html{ height: 100%;
     max-width: 100px;
 }
 
-
-/*
- Responsive navigation menu (for mobile devices) 
-@media screen and (max-width: 600px) {
-  .topnav a, .topnav-right {
-    float: none;
-    display: block;
-  }
-  
-  .topnav-centered a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  } 
-    .content_container{
-        width:100%;
-            padding:2px;
-        margin:0 auto;
-    }
-    p { position: relative;
-            bottom: 44px;
-            width: 150%;
-        }  
+.content_container{
+    border: 4px solid red;
+    
 }
-*/
-
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -189,6 +166,18 @@ html{ height: 100%;
   top: 0%;
   left: 0%;
   transform: translate(0%,  0%);
+}
+    
+    
+    .text_color
+{ background-color: #030c1b;
+    border-style: solid;
+    border-color: #FF1919;
+    color: #4000ff;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+     top: 36px;
 }
 
 }
