@@ -53,8 +53,24 @@ body { background-image: url("../images/redespa_tierra_spain.jpg");
             width: 100%;
         }  
         
+table{
+    border: 2px solid white;
+  border-collapse: collapse;
+    color:red;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color:floralwhite; 
+    position: relative;
+    top: 25px;
+}
+      
+td{
+   width: 50%;
+   height: 50%;
+    text-align: center;
+}
 
-       
+
 h1 {text-decoration: underline;
     text-shadow: 2px 3px #0d154f;
     font-size: 80px;
