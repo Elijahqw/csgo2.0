@@ -150,7 +150,7 @@ html{ height: 100%;
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
@@ -215,12 +215,15 @@ html{ height: 100%;
          margin:10%;
          display: block;
          font-size:30px;
+             width: 50%;
     }
   
     #experience_header{
         font-size:30px;
        }
     p{
+       width: 70%;
+        font-size:14px;
         margin:9px;
     }
 }
